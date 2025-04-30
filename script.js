@@ -174,10 +174,10 @@ async function startTileAnimation() {
             if (currentIndex < tiles.length) {
                 animateTile(currentIndex);
                 currentIndex++;
-                setTimeout(animateNext, 200);
+                setTimeout(animateNext, 500); 
             } else {
                 isAnimating = false;
-                setTimeout(openCarousel, 500);
+                setTimeout(openCarousel, 2000); 
             }
         };
         animateNext();
