@@ -26,39 +26,94 @@ const dynamic_values = {
 // Mock Products Data
 const mockProducts = [
     {
-        "activewear": "0",
-        "additional_image_link": "https://media.kohlsimg.com/is/image/kohls/6530242_Peach_Dye?wid=150&hei=150&op_sharpen=1",
-        "age_group": "adult",
-        "availability": "in stock",
-        "brand": "Sonoma Goods For Life",
-        "color": "Peach Dye",
-        "condition": "new",
-        "gtin": "400496656802",
-        "id": "49665680",
-        "image_link": "https://media.kohlsimg.com/is/image/kohls/6530242_Peach_Dye?wid=800&hei=800&op_sharpen=1",
-        "link": "https://www.kohls.com/product/prd-6530242/womens-sonoma-goods-for-life-short-sleeve-crew-tee.jsp?skuid=49665680",
+        "id": "71539573",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/6530363_Bright_Green_Stripe?wid=800&hei=800&op_sharpen=1",
+        "title": "Women's Sonoma Goods For Life® Everyday Short Sleeve V-Neck Tee, Size: XXL, Bright Green Stripe",
         "price": "9.99 USD",
         "sale_price": "7.99 USD",
-        "size": "Xxl",
-        "title": "Women's Sonoma Goods For Life Short-Sleeve Crew Tee"
+        "link": "https://www.kohls.com/product/prd-6530363/womens-sonoma-goods-for-life-everyday-short-sleeve-v-neck-tee.jsp?skuid=71539573",
+        "brand": "Sonoma Goods For Life"
     },
     {
-        "id": "49665681",
-        "image_link": "https://media.kohlsimg.com/is/image/kohls/3583733_Black_White?wid=800&hei=800&op_sharpen=1",
-        "title": "Nike Running Shoes - Black/White",
-        "price": "89.99 USD",
-        "sale_price": "69.99 USD",
-        "link": "https://www.kohls.com/product/prd-3583733",
-        "brand": "Nike"
+        "id": "49665680",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/6530242_Peach_Dye?wid=800&hei=800&op_sharpen=1",
+        "title": "Women's Sonoma Goods For Life® Short-Sleeve Crew Tee, Size: XXL, Pink Dye",
+        "price": "9.99 USD",
+        "sale_price": "7.99 USD",
+        "link": "https://www.kohls.com/product/prd-6530242/womens-sonoma-goods-for-life-short-sleeve-crew-tee.jsp?skuid=49665680",
+        "brand": "Sonoma Goods For Life"
     },
     {
-        "id": "49665682",
-        "image_link": "https://media.kohlsimg.com/is/image/kohls/4703531_Brown?wid=800&hei=800&op_sharpen=1",
-        "title": "Modern Accent Chair - Brown",
-        "price": "299.99 USD",
-        "sale_price": "199.99 USD",
-        "link": "https://www.kohls.com/product/prd-4703531",
-        "brand": "Furniture Collection"
+        "id": "80124018",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/6494507_Manolo_Olive?wid=800&hei=800&op_sharpen=1",
+        "title": "Women's Sonoma Goods For Life® Easy Paper Bag Waist Capri, Size: XXL, Manolo Green",
+        "price": "29.99 USD",
+        "sale_price": "23.99 USD",
+        "link": "https://www.kohls.com/product/prd-6494507/womens-sonoma-goods-for-life-easy-paper-bag-waist-capri.jsp?skuid=80124018",
+        "brand": "Sonoma Goods For Life"
+    },
+    {
+        "id": "76125164",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/4569317_Taupe?wid=800&hei=800&op_sharpen=1&ver=1",
+        "title": "Sonoma Goods For Life® Ultimate Bath Towel, Bath Sheet, Hand Towel or Washcloth with Hygro® Technology, Brown",
+        "price": "6.99 USD",
+        "sale_price": "3.91 USD",
+        "link": "https://www.kohls.com/product/prd-4569317/sonoma-goods-for-life-ultimate-bath-towel-bath-sheet-hand-towel-or-washcloth-with-hygro-technology.jsp?skuid=76125164",
+        "brand": "Sonoma Goods For Life"
+    },
+    {
+        "id": "63380291",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/3910467_New_Black?wid=800&hei=800&op_sharpen=1&ver=1",
+        "title": "Men's Sonoma Goods For Life® Supersoft Crewneck Tee, Size: XS, New Black",
+        "price": "9.99 USD",
+        "sale_price": "7.99 USD",
+        "link": "https://www.kohls.com/product/prd-3910467/mens-sonoma-goods-for-life-supersoft-crewneck-tee.jsp?skuid=63380291",
+        "brand": "Sonoma Goods For Life"
+    },
+    {
+        "id": "21034257",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/4569328_Medium_Gray?wid=800&hei=800&op_sharpen=1&ver=1",
+        "title": "The Big One® Solid Bath Towel, Bath Sheet, Hand Towel or Washcloth, Medium Gray",
+        "price": "4.99 USD",
+        "sale_price": "3.99 USD",
+        "link": "https://www.kohls.com/product/prd-4569328/the-big-one-solid-bath-towel-bath-sheet-hand-towel-or-washcloth.jsp?skuid=21034257",
+        "brand": "The Big One"
+    },
+    {
+        "id": "66527697",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/4887344_Blue_Sea_Coral?wid=800&hei=800&op_sharpen=1",
+        "title": "Women's Croft & Barrow® Elbow-Sleeve Splitneck Top, Size: XXL, Blue Pink",
+        "price": "17.99 USD",
+        "sale_price": "14.39 USD",
+        "link": "https://www.kohls.com/product/prd-4887344/womens-croft-barrow-elbow-sleeve-splitneck-top.jsp?skuid=66527697",
+        "brand": "Croft & Barrow"
+    },
+    {
+        "id": "74649841",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/1944597_Purple_Rib?wid=800&hei=800&op_sharpen=1",
+        "title": "The Big One® Oversized Supersoft Plush Throw Blanket, Purple Rib",
+        "price": "14.99 USD",
+        "sale_price": "11.99 USD",
+        "link": "https://www.kohls.com/product/prd-1944597/the-big-one-super-soft-plush-throw.jsp?skuid=74649841",
+        "brand": "The Big One"
+    },
+    {
+        "id": "78646606",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/3500577_Navy_Butterfly_Graphic?wid=800&hei=800&op_sharpen=1",
+        "title": "Women's Croft & Barrow® Essential Crewneck Tee, Size: XL, Blue Butterfly Graphic",
+        "price": "11.99 USD",
+        "sale_price": "9.59 USD",
+        "link": "https://www.kohls.com/product/prd-3500577/womens-croft-barrow-essential-crewneck-tee.jsp?skuid=78646606",
+        "brand": "Croft & Barrow"
+    },
+    {
+        "id": "70541979",
+        "image_link": "https://media.kohlsimg.com/is/image/kohls/3521568_White_Spring_Stripe?wid=800&hei=800&op_sharpen=1",
+        "title": "Plus Size Croft & Barrow® Essential Crewneck Top, Women's, Size: 4XL, White Spring Stripe",
+        "price": "11.99 USD",
+        "sale_price": "9.59 USD",
+        "link": "https://www.kohls.com/product/prd-3521568/plus-size-croft-barrow-essential-crewneck-tee.jsp?skuid=70541979",
+        "brand": "Croft & Barrow"
     }
 ];
 
@@ -109,37 +164,24 @@ function animateTile(index) {
 async function startTileAnimation() {
     if (isAnimating) return;
     isAnimating = true;
-
-    // Green check animation
-    greenCheck.style.transform = 'scale(1.2)';
-    await new Promise(resolve => setTimeout(resolve, 300));
-    greenCheck.style.transform = 'scale(1)';
-    await new Promise(resolve => setTimeout(resolve, 200));
-
-    // Reset all tiles to initial state
-    tiles.forEach((tile, index) => {
-        const img1 = tile.querySelector('.tile-img');
-        const img2 = tile.querySelector('.tile-img-2');
-        const text = tile.querySelector('.tile-text');
-        
-        img1.style.opacity = '1';
-        img2.style.opacity = '0';
-        text.textContent = dynamic_values[`Tile${index + 1}_Image1_txt`].toUpperCase();
-    });
-
-    // Animate tiles sequentially
-    for (let i = 0; i < tiles.length; i++) {
-        await animateTile(i);
-        await new Promise(resolve => setTimeout(resolve, 300));
-    }
-
-    // Wait before opening carousel
-    await new Promise(resolve => setTimeout(resolve, 500));
     
-    // Open carousel after animation
-    openCarousel();
-    isAnimating = false;
-    startContinuousAnimation();
+    const checkBox = document.getElementById('green-check');
+    checkBox.classList.add('checked');
+    
+    setTimeout(() => {
+        let currentIndex = 0;
+        const animateNext = () => {
+            if (currentIndex < tiles.length) {
+                animateTile(currentIndex);
+                currentIndex++;
+                setTimeout(animateNext, 200);
+            } else {
+                isAnimating = false;
+                setTimeout(openCarousel, 500);
+            }
+        };
+        animateNext();
+    }, 300);
 }
 
 // Continuous tile animation
@@ -190,7 +232,9 @@ function closeCarousel() {
     mainFrame.style.transform = 'translateX(0)';
     carouselFrame.style.transform = 'translateX(100%)';
     
-    // Reset tiles to initial state and restart animations
+    const checkBox = document.getElementById('green-check');
+    checkBox.classList.remove('checked');
+    
     tiles.forEach((tile, index) => {
         const img1 = tile.querySelector('.tile-img');
         const img2 = tile.querySelector('.tile-img-2');
@@ -201,10 +245,7 @@ function closeCarousel() {
         text.textContent = dynamic_values[`Tile${index + 1}_Image1_txt`].toUpperCase();
     });
     
-    // Reset carousel to first position
     navigateToSlide(0);
-    
-    // Start continuous animation after a delay
     setTimeout(startContinuousAnimation, 500);
 }
 
