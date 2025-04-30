@@ -177,6 +177,12 @@ function startContinuousAnimation() {
 function openCarousel() {
     mainFrame.style.transform = 'translateX(-100%)';
     carouselFrame.style.transform = 'translateX(0)';
+    
+    // Set initial arrow states
+    prevArrow.style.opacity = '0.5';
+    prevArrow.style.pointerEvents = 'none';
+    nextArrow.style.opacity = currentSlide === mockProducts.length - 1 ? '0.5' : '1';
+    nextArrow.style.pointerEvents = currentSlide === mockProducts.length - 1 ? 'none' : 'auto';
 }
 
 // Close carousel and restart tile animations
@@ -194,6 +200,9 @@ function closeCarousel() {
         img2.style.opacity = '0';
         text.textContent = dynamic_values[`Tile${index + 1}_Image1_txt`].toUpperCase();
     });
+    
+    // Reset carousel to first position
+    navigateToSlide(0);
     
     // Start continuous animation after a delay
     setTimeout(startContinuousAnimation, 500);
