@@ -32,7 +32,7 @@ Feed data is retrieved using fetch API
 Animation timing follows specific sequence as shown in reference materials
 All design elements aligned with provided PSDs
 
-Small assestmen repo Created By
+Small assessment repo Created By
 Leonardo Diaz - 04-25
 
 Contact via:
